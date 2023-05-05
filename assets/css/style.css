@@ -105,7 +105,7 @@ nav {
     color:black;
 }
 
-
+/*about us section*/
 
 .about-heading{
     width: 90%;
@@ -194,4 +194,6 @@ nav {
     background-color: rgba(4, 160, 4, 0.933);
 }
 
+/* About us closed*/
 
+#our-service{}
