@@ -17,6 +17,7 @@ h1,
 h2 {
     font-family: Loto, serif;
     letter-spacing: 1px;
+    text-transform:capitalize;
     
 }
 
@@ -81,7 +82,8 @@ nav {
     text-transform:capitalize;
     position: absolute;
     top: 50%;
-    left:40%;
+    left:20%;
+    right: 50%;
     transform: translate(-50%,-50%);
 }
 .tagline h2{
@@ -93,6 +95,7 @@ nav {
     position: absolute;
     top:120px;
     left: 30%;
+   
     transform: translate(-50%,-50%);
     border: 2px solid white;
     padding: 10px 30px ;
@@ -143,13 +146,12 @@ nav {
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-
+    
 }
 
 .about-image{
-    flex:1;
-    margin-right: 40%;
-    overflow: hidden;
+    width:45%;
+    
 
 }
 .about-image img{
@@ -165,7 +167,7 @@ nav {
     transform: scale(1.2);
 }
 .more-text{
-    flex: 1;
+    width:45%;
 }
 .more-text h2{
     font-size:25px;
@@ -196,4 +198,93 @@ nav {
 
 /* About us closed*/
 
-#our-service{}
+/* SERVICES*/
+
+#our-service{
+    height: 600px;
+}
+
+#left-service{
+    padding-top: 30px;
+    width:33%;
+    float:left;
+}
+
+#right-service{
+    padding-top: 30px;
+    width:33%;
+    float:right;
+}
+
+#center-image{
+    width: 33%;
+    margin: 0 auto;
+    
+
+}
+
+.service-heading{
+    text-align: center;
+    margin: 50px 0;
+    font-size: 250%;
+}
+.service-heading:hover{
+    border-bottom: 1px solid green;
+
+}
+
+.left-pet-sitting{
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 20%;
+
+    
+}
+
+.left-pet-sitting h2{ 
+    text-align: center;
+}
+.left-pet-sitting{
+    text-align: center;
+}
+
+hr{
+    border-top: 1px solid green;
+    margin: 5px;
+    width:100% ;
+}
+
+.right-pet-service{
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 16%;
+}    
+.right-pet-service h2{ 
+    text-align: center;
+}
+.right-pet-service{
+    text-align: center;
+}
+
+
+.center-circle{
+    width: 400px;
+    height: 400px;
+    padding: 15px;
+    border: 1.5px solid green; 
+    border-radius: 50%;
+    margin: 80px auto;
+    bottom:20px;
+}
+
+.circle-image{
+    background-image: url('../images/2.jpeg');
+    height:100%;
+    border-radius:50%;
+}
+
+
