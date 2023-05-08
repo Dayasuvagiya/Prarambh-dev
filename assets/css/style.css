@@ -17,8 +17,7 @@ h1,
 h2, h3 {
     font-family: Loto, serif;
     letter-spacing: 1px;
-    text-transform:capitalize;
-    
+    text-transform:capitalize;   
 }
 
 .logo {
@@ -35,9 +34,7 @@ nav {
     height: 75px;
     line-height: 75px;
     padding: 0px 100px;
-    
-    background-color: rgb(0, 140, 0);
-
+    background-color: rgb(0, 128, 0);
 }
 
 #menu {
@@ -55,7 +52,6 @@ nav {
 #menu a {
     text-decoration: none;
     color: inherit;
-
 }
 
 #menu a:hover {
@@ -86,23 +82,23 @@ nav {
     right: 50%;
     transform: translate(-50%,-50%);
 }
+
 .tagline h2{
     color: white;
     font-size: 35px;
-
 }
+
 #button{
     position: absolute;
     top:120px;
     left: 30%;
-   
     transform: translate(-50%,-50%);
     border: 2px solid white;
     padding: 10px 30px ;
     text-decoration: none;
     color: white;
-
 }
+
 #button:hover{
     background-color: white;
     color:black;
@@ -119,9 +115,8 @@ nav {
     text-align: center;
     margin: 20px auto;
     margin-top: 0%;
-
-
 }
+
 .about-heading h2{
     /*font-size: 250%;
     margin-bottom: 25px;
@@ -129,25 +124,22 @@ nav {
     text-align: center;
     margin: 70px 0;
     font-size: 250%;
-    margin-bottom:1%;
-    
+    margin-bottom:1%;  
 }
+
 .border-about{
     width: 150px;
     height: 3px;
     background:hsl(120, 100%, 25%);
     margin:15px auto;
     margin-top: auto;
-
 }
-
-
 
 .about-heading p{
     font-size: 20px;
     margin-bottom:35px ;
-
 }
+
 .container{
     width: 90%;
     margin:0 auto;
@@ -158,41 +150,41 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-wrap: wrap;
-    
+    flex-wrap: wrap;   
 }
 
 .about-image{
-    width:45%;
-    
-
+    width:45%;   
 }
+
 .about-image img{
     max-width:100%;
     height:auto;
     display:block;
-    transition: 0.5s ease;
-    
-
-    
+    transition: 0.5s ease;   
 }
+
 .about-image:hover{
     transform: scale(1.2);
 }
+
 .more-text{
     width:45%;
 }
+
 .more-text h2{
     font-size:25px;
     margin-bottom:15px;
     color: black;
-}   
+}
+
 .more-text p{
     font-size: 19px;
     line-height: 1.5;
-    columns: black;
+    color: black;
 }
-.more text .read-more{
+
+.more-text .read-more{
     display: inline-block;
     padding: 10px 20px;
     color: black;
@@ -202,13 +194,11 @@ nav {
     margin-top: 15px;
     transition: 0.3s ease;
     background-color: rgba(4, 160, 4, 0.933);
-
-
 }
-.more text .read-more:hover{
+
+.more-text .read-more:hover{
     background-color: rgba(4, 160, 4, 0.933);
 }
-
 /* About us closed*/
 
 /* SERVICES*/
@@ -232,8 +222,6 @@ nav {
 #center-image{
     width: 33%;
     margin: 0 auto;
-    
-
 }
 
 .service-heading{
@@ -255,14 +243,13 @@ nav {
     float: right;
     line-height: 20px;
     clear: both;
-    margin-bottom: 20%;
-
-    
+    margin-bottom: 20%;    
 }
 
 .left-pet-sitting h2{ 
     text-align: center;
 }
+
 .left-pet-sitting{
     text-align: center;
 }
@@ -279,14 +266,15 @@ hr{
     line-height: 20px;
     clear: both;
     margin-bottom: 16%;
-}    
+}  
+
 .right-pet-service h2{ 
     text-align: center;
 }
+
 .right-pet-service{
     text-align: center;
 }
-
 
 .center-circle{
     width: 400px;
@@ -304,21 +292,21 @@ hr{
     border-radius:50%;
     
 }
+/*About us section complete*/
 
-
-/*Testimonial*/
+/*Testimonial section bigin*/
 
 .testimonials{
     padding: 3% 0;
     color: black;
     text-align: center;
     height: auto;
-    
-
 }
+
 .testimonials h1{
     font-size:250%;
 }
+
 .testi-inner{
     max-width: 100%;
     margin: auto;
@@ -338,39 +326,39 @@ hr{
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .col{
     flex:33%;
     max-width: 30%;
     box-sizing: border-box;
     padding: 15px;
-
 }
+
 .sub-testimonial{
     background: #dbf1da;
     padding: 91px;
 }
+
 .image-testi1{
-    background-image: url('../images/test\ 1.jpeg');
+    background-image: url('../images/t1.jpeg');
     width: 200px;
     height: 200px;
     border-radius: 50%;
-
 }
+
 .image-testi2{
-    background-image: url('../images/test\ 2.jpeg');
+    background-image: url('../images/t2.jpeg');
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
 
 .image-testi3{
-    background-image: url('../images/test\ ex.jpeg');
+    background-image: url('../images/t3.jpeg');
     width: 200px;
     height: 200px;
     border-radius: 50%;
-
 }    
-
 
 .full-name{
     font-size: 20px;
@@ -382,26 +370,9 @@ hr{
     color:#008000;
     margin-bottom: 20px;
 }
-
-@media screen and (max-width:960px) {
-.col{
-    flex: 100%;
-    max-width: 80%;
-}      
-}
-
-@media screen and(max-width:600px) {
-.col{
-    flex: 100%;
-    max-width: 100%;
-}      
-}
-
-/*testimonial complate*/
-
+/*testimonial complete*/
 
 /*footer*/
-
 
 footer{
     background-color:rgb(0, 140, 0);
@@ -418,27 +389,29 @@ footer{
     flex-direction: column;
     text-align: center;
 }
+
 .footer-content h3{
     font-size: 50px;
     font-weight: 400;
     text-transform: capitalize;
     line-height: 3rem;
 }
+
 .footer-content p{
     max-width: 500px;
     margin: 10px auto;
     line-height: 28px;
     font-size: 14px;
 }
+
 .social-media{
     display: flex;
     align-items: center;
     justify-content:center ;
     margin: 10px 0 15px 0;
-    font-size: 50px;
-    
-    
+    font-size: 50px;   
 }
+
 /*.social-media li{
     margin: 0 10px;
 }
@@ -449,14 +422,15 @@ footer{
 .icon{
     font-size: 50px;
     margin: 0%;
-    letter-spacing: 5px;
-    
+    letter-spacing: 5px;   
 }
+
 .footer-bottom{
     width: 100vw;
     padding: 20px 0;
     text-align: center;
 }
+
 .footer-bottom p{
     font-size: 14px;
     text-transform: capitalize;
@@ -506,8 +480,6 @@ footer{
 
 
 
-
-
 /*form section/page style*/
 
 .contact{
@@ -517,27 +489,29 @@ footer{
     display: flex;
     justify-content: center;
     /*flex-direction: column;*/
-    background: url(../images/final\ bg\ 1.jpeg);
-    background-size: cover;
-    
+    background: url(../images/123.jpeg);
+    background-size: cover; 
+
 }
+
 .contact .form-content{
     max-width: 800px;
     text-align: center;
 }
+
 .contact .form-content h2{
     font-size:36px;
     font-weight: 500;
-    color: #000000;
+    color: #fafafa;
 }
+
 .contact .form-content p{
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    color: #000000;
-
+    color: #fafafa;
 }
 
 .formmain{
@@ -551,9 +525,10 @@ footer{
 }
 
 .formmain h2{
-        color:b#fafafa;
+        color:#fafafa;
         margin-bottom:20px;
 }
+
 .textinput{
     background:transparent;
     color:#fafafa;
@@ -565,9 +540,9 @@ footer{
 }
 
 .textinput:hover{
-    border-color:rgb(0, 128, 0);
+    border-color:#008000;
+} 
 
-}    
 .send{
     margin-top:20px;
     border-radius: 2px;
@@ -578,6 +553,7 @@ footer{
     color:#fafafa;
     display:block;
 }
+
 .send:hover{
     background-color:#fafafa;
     color:rgb(0, 128, 0);
