@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content=", initial-scale=1.0">
     <meta name="description" content="A wonderful Friend">
     <meta name="keywords" content="a wonderful friend, pet, animals">
     <link rel="stylesheet" href="assets/css/style.css">
@@ -13,39 +13,44 @@
 
 <body>
     <header>
+
         <nav>
             <a href="index.html">
                 <h1 class="logo">PetPals</h1>
             </a>
             <ul id="menu">
                 <li>
-                    <a href="form.html">Get In Touch</a>
-                </li>
-                <li>
-                    <a href="#our-service">Services</a>
-                </li>
-                <li>
-                    <a href="#aboutus">About Us</a>
-                </li>
-                <li>
                     <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="#">About Us</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="form.html">Get In Touch</a>
                 </li>
             </ul>
         </nav>
     </header>
-
-    <!--First homepage section-->
     <section>
-        <div class="main-image"></div>
-        <div class="tagline">
-            <h2>Pawsitively dedicated to your pet's wellbeing</h2>
-            <a href="#" id="button">Know More</a>
+        <div class="main-image">
+            <div>
+                <h2>Pawsitively dedicated to your pet's wellbeing</h2>
+                    <a href="#" id="button">Know More</a>
+
+            </div>
+            <!-- <div class="tagline">
+                <h2>Pawsitively dedicated to your pet's wellbeing</h2>
+                <a href="#" id="button">Know More</a>
+            </div> -->
         </div>
     </section>
 
-    <!--About us section-->
+
     <section>
-        <div class="about-heading" id="aboutus">
+        <div class="about-heading">
             <h2>About us</h2>
             <div class="border-about"></div>
             <p>At PetPals, we believe that pets are not just animals but are integral members of our families.</p>
@@ -65,44 +70,46 @@
         </div>
     </section>
 
-<!--Service section-->
+
     <section id="our-service">
         <h2 class="service-heading">Pick the perfect pet care</h2>
         <div class="border-test"></div>
-        <div id="left-service">
-            <div class="left-pet-sitting">
-                <h2>Pet sitting <i class="fa-solid fa-dog"></i></h2>
-                <hr>
-                <p>We offer pet sitting services that provide a stress-free alternative to boarding your pet. Our pet sitters are passionate about pets and understand the unique needs of each animal.
-                </p>
+        <div id="service-container">
+            <div id="left-service">
+                <div class="left-pet-sitting">
+                    <h2>Pet sitting <i class="fa-solid fa-dog"></i></h2>
+                    <hr>
+                    <p>We offer pet sitting services that provide a stress-free alternative to boarding your pet. Our pet sitters are passionate about pets and understand the unique needs of each animal.
+                    </p>
+                </div>
+                <div class="left-pet-sitting">
+                    <h2>pet Minding <i class="fa-solid fa-cat"></i></h2>
+                    <hr>
+                    <p>Our team of experienced pet minders will provide your pet with the care and attention they need, whether it's feeding, walking, playing, or just giving them plenty of love and cuddles.
+                    </p>
+                </div>
             </div>
-            <div class="left-pet-sitting">
-                <h2>pet Minding <i class="fa-solid fa-cat"></i></h2>
-                <hr>
-                <p>Our team of experienced pet minders will provide your pet with the care and attention they need, whether it's feeding, walking, playing, or just giving them plenty of love and cuddles.
-                </p>
+            <div id="service-image">
+                <div class="center-circle">
+                    <div class="circle-image"></div>
+                </div>
             </div>
-        </div>
-        <div id="right-service">
-            <div class="right-pet-service">
-                <h2>pet training<i class="fa-solid fa-heart"></i></h2>
-                <hr>
-                <p>we understand that every pet is unique, which is why we offer customized pet training services tailored to your pet's individual needs. We offer one-on-one training sessions, group classes, and even in-home training.</p>
-            </div>
-            <div class="right-pet-service">
-                <h2 >grooming<i class="fa-solid fa-scissors"></i></h2>
-                <hr>
-                <p>we believe that grooming is an essential part of your pet's overall health and well-being. Our experienced groomers use gentle, pet-friendly techniques to ensure that your furry friend looks and feels their best. </p>
-            </div>
-        </div>
-        <div id="service-image">
-            <div class="center-circle">
-                <div class="circle-image"></div>
+            <div id="right-service">
+                <div class="right-pet-service">
+                    <h2>pet training<i class="fa-solid fa-heart"></i></h2>
+                    <hr>
+                    <p>we understand that every pet is unique, which is why we offer customized pet training services tailored to your pet's individual needs. We offer one-on-one training sessions, group classes, and even in-home training.</p>
+                </div>
+                <div class="right-pet-service">
+                    <h2 >grooming<i class="fa-solid fa-scissors"></i></h2>
+                    <hr>
+                    <p>we believe that grooming is an essential part of your pet's overall health and well-being. Our experienced groomers use gentle, pet-friendly techniques to ensure that your furry friend looks and feels their best. </p>
+                </div>
             </div>
         </div>
     </section>
 
-<!--testimonial section-->
+    <!--testimonial section-->
 
     <section class="testimonials">
         <div class="testi-inner">
@@ -171,14 +178,14 @@
             <h3>Let's talk about your pet</h3>
             <p>Contact us today to learn more about our pet sitting services and to schedule a free consultation.</p>  
         </div>
-        <div class="social-media">
-            <div class="icon">
-                <a href="https://facebook.com" target="_blank" rel="noopener" area-label="Link to Facebook"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a> 
-                <a href="https://instagram.com" target="_blank" rel="noopener" area-label="Link to Instagram"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a> 
-                <a href="https://twitter.com" target="_blank" rel="noopener" area-label="Link to Twitter"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a> 
-                <a href="https://youtube.com" target="_blank" rel="noopener" area-label="Link to Youtube"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
-            </div>
-        </div>
+        <ul class="social-media">
+            <li class="icon">
+                <a href="https://facebook.com" target="_blank" rel="noopener" arial-label="Visit our Facebook page"><i class="fa-brands fa-square-facebook" style="color: #ffffff;"></i></a> 
+                <a href="https://instagram.com" target="_blank" rel="noopener" arial-label="Visit our Instagram page"><i class="fa-brands fa-instagram" style="color: #ffffff;"></i></a> 
+                <a href="https://twitter.com" target="_blank" rel="noopener" arial-label="Visit our Twitter page"><i class="fa-brands fa-twitter" style="color: #ffffff;"></i></a> 
+                <a href="https://youtube.com" target="_blank" rel="noopener" arial-label="Visit our Youtube page"><i class="fa-brands fa-youtube" style="color: #ffffff;"></i></a>
+            </li>
+        </ul>
         <div class="footer-bottom">
             <p>copyright &copy;2023</p>
         </div>
@@ -187,7 +194,7 @@
 <!--footer complete-->
 
 
-<!--font icons-->
+    <!--font icons-->
     <script src="https://kit.fontawesome.com/670bc76ec2.js" crossorigin="anonymous"></script>
 
 </body>
