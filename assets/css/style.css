@@ -65,12 +65,12 @@ nav {
 
 .main-image {
     background-image: url('../images/backgroun-main.webp');
-    height: 100vh;
-    width: 100%;
+    width:100%;
+    height:100vh;
     background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;   
 }
 
 .tagline{
@@ -107,7 +107,6 @@ nav {
 /*about us section*/
 
 .about-heading{
-    width: 90%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -181,31 +180,32 @@ nav {
 .more-text p{
     font-size: 19px;
     line-height: 1.5;
-    color: black;
+    color: #000000;
 }
 
 .more-text .read-more{
     display: inline-block;
     padding: 10px 20px;
-    color: black;
+    color: #000000;
     font-size: 20px;
     text-decoration: none;
     border-radius: 25px;
+    border:1px solid black;
     margin-top: 15px;
     transition: 0.3s ease;
-    background-color: rgba(4, 160, 4, 0.933);
+    background-color: #dbf1da;
 }
 
-.more-text .read-more:hover{
+.read-more:hover{
     background-color: rgba(4, 160, 4, 0.933);
 }
 /* About us closed*/
 
 /* SERVICES*/
 
-#our-service{
+/*#our-service{
     height: 600px;
-}
+}*/
 
 #left-service{
     padding-top: 30px;
@@ -232,18 +232,19 @@ nav {
 }
 
 .border-test{
-    width: 450px;
+    width: 35%;
     height: 3px;
     background:hsl(120, 100%, 25%);
     margin:20px auto;
 }
 
 .left-pet-sitting{
-    width: 60%;
-    float: right;
+    /*width: 60%;
+    float: right;*/
     line-height: 20px;
     clear: both;
-    margin-bottom: 20%;    
+    margin-bottom: 20% ; 
+    /*margin-left: 40%; */  
 }
 
 .left-pet-sitting h2{ 
@@ -261,11 +262,12 @@ hr{
 }
 
 .right-pet-service{
-    width: 60%;
-    float: left;
+    /*width: 60%;
+    float: left;*/
     line-height: 20px;
     clear: both;
     margin-bottom: 16%;
+    /*margin-right: 40%;*/
 }  
 
 .right-pet-service h2{ 
@@ -328,8 +330,8 @@ hr{
 }
 
 .col{
-    flex:33%;
-    max-width: 30%;
+    /*flex:33%;
+    max-width: 30%;*/
     box-sizing: border-box;
     padding: 15px;
 }
@@ -340,21 +342,18 @@ hr{
 }
 
 .image-testi1{
-    background-image: url('../images/t1.jpeg');
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
 
 .image-testi2{
-    background-image: url('../images/t2.jpeg');
     width: 200px;
     height: 200px;
     border-radius: 50%;
 }
 
 .image-testi3{
-    background-image: url('../images/t3.jpeg');
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -375,7 +374,7 @@ hr{
 /*footer*/
 
 footer{
-    background-color:rgb(0, 140, 0);
+    background-color:#008000;
     height: auto;
     width: 100vw;
     padding-top: 40px;
@@ -535,12 +534,15 @@ footer{
     width:100%;
     height:25px;
     margin:5px 0 20px 0;
-    border:1px solid #fafafa;
+    border:2px solid #fafafa;
     border-radius:2px;
+}
+#message{
+    height:75px;
 }
 
 .textinput:hover{
-    border-color:#008000;
+    border-color:rgb(254, 179, 122);
 } 
 
 .send{
@@ -549,13 +551,14 @@ footer{
     padding:15px 32px 15px 32px;
     text-align:center;
     font-size:100%;
-    background-color:rgb(0, 128, 0);
-    color:#fafafa;
+    background-color:#dbf1da;
+    color:black;
     display:block;
+    border-radius: 25px;
 }
 
 .send:hover{
-    background-color:#fafafa;
-    color:rgb(0, 128, 0);
+    background-color:#008000;
+    color:white;
     
 }
