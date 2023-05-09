@@ -1,6 +1,6 @@
 # PetPals
 
-Welcome to the PetPaös website! This README file provides an overview of my pet care website, highlighting its features, color scheme, technologies used, deployment details, and credits.
+Welcome to the PetPals website! This README file provides an overview of my pet care website, highlighting its features, color scheme, technologies used, deployment details, and credits.
 
 The Pet Service website is a professional and user-friendly platform designed to meet the unique needs of pet owners. my goal is to provide top-quality pet care services, including pet sitting, grooming, training, and minding. With a visually appealing design and easy navigation, my website ensures a seamless user experience for visitors.
 
