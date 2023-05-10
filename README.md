@@ -22,36 +22,36 @@ The Pet Service website offers the following key features:
   <img width="1456" alt="Screenshot 2023-05-10 at 13 14 37" src="https://github.com/Dayasuvagiya/Prarambh-dev/assets/130157117/8a96cb74-b2f2-441d-beec-0a8bebafe051">
   </div>
   
-- Navigation Bar:
+### Navigation Bar:
   - Responsive and intuitive navigation bar for easy exploration.
   - Clear and organized menu structure for quick access to different sections.
   - The Navbar is simple, providing only four options with only one very evident Contact page, to maintain the minimalist style.
   - The Logo is always highlighted, swapping position as necessary depending on device size.
   - On smaller devices, the menu becomes collapsible.
 
-- Landing Page Image:
+### Landing Page Image:
   - Captivating image that reflects the essence of pet care services.
   - Inviting and engaging visual experience for visitors.
 
-- About Section:
+### About Section:
   - Informative "About" section highlighting passion for pets, experience, and commitment to exceptional care.
   - Engaging content that connects with visitors and showcases expertise.
 
-- Services Section:
+### Services Section:
   - Comprehensive range of pet care services tailored to suit various needs.
   - Detailed descriptions of each service, providing visitors with a clear understanding of what I offer.
 
-- Testimonial Section:
+### Testimonial Section:
   - Heartfelt testimonials from satisfied clients, demonstrating track record of exceptional care and professionalism.
   - Build trust and confidence in the services through authentic feedback.
 
-- Footer:
+### Footer:
   - Located at the bottom of every page, mainly highlighting contact and social aspects.
   - A message encouraging contact is used as the first column.
   - The third column represents Important social media links.
   - Footer design that complements the overall aesthetics of the website.
 
-- Get in Touch Section:
+### Get in Touch Section:
   - User-friendly contact form for inquiries, messages, or general questions.
   - Prompt response and personalized assistance to address visitor inquiries.
 
