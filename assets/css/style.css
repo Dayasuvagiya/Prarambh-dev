@@ -28,7 +28,7 @@ h2, h3 {
     letter-spacing: 1.5px;
     cursor: pointer;
 }
-
+/* Menu bar start*/
 nav {
     display: flex;
     align-items: center;
@@ -68,7 +68,7 @@ nav a {
     border-bottom: 1px solid white;
 }
 
-
+/*Home page main image section*/
 .main-image {
     background-image: url('../images/backgroun-main.webp');
     width:100%;
@@ -116,9 +116,6 @@ nav a {
 }
 
 .about-heading h2{
-    /*font-size: 250%;
-    margin-bottom: 25px;
-    position:relative;*/
     text-align: center;
     margin: 70px 0;
     font-size: 250%;
@@ -150,20 +147,6 @@ nav a {
     align-items: center;
     flex-wrap: wrap;   
 }
-
-@media (max-width: 800px) {
-    .about {
-      flex-direction: column;
-    }
-
-    .about-image {
-        width: 80% !important;
-    }
-
-    .more-text {
-        width: 80% !important;
-    }
-  }
 
 .about-image{
     width:45%;   
@@ -212,13 +195,26 @@ nav a {
 .read-more:hover{
     background-color: rgba(4, 160, 4, 0.933);
 }
+
 /* About us closed*/
 
-/* SERVICES*/
+/*responsive for home page and about us section*/
 
-/*#our-service{
-    height: 600px;
-}*/
+@media (max-width: 800px) {
+    .about {
+      flex-direction: column;
+    }
+
+    .about-image {
+        width: 80% !important;
+    }
+
+    .more-text {
+        width: 80% !important;
+    }
+  }
+
+/* SERVICES section*/
 
 #service-container {
     display: flex;
@@ -286,12 +282,9 @@ nav a {
 }
 
 .left-pet-sitting{
-    /*width: 60%;
-    float: right;*/
     line-height: 20px;
     clear: both;
     margin-bottom: 20% ; 
-    /*margin-left: 40%; */  
 }
 
 .left-pet-sitting h2{ 
@@ -309,13 +302,10 @@ hr{
 }
 
 .right-pet-service{
-    /*width: 60%;
-    float: left;*/
     line-height: 20px;
     clear: both;
     margin-bottom: 16%;
-    /*margin-right: 40%;*/
-}  
+}    
 
 .right-pet-service h2{ 
     text-align: center;
@@ -325,25 +315,15 @@ hr{
     text-align: center;
 }
 
-/* .center-circle{
-    width: 400px;
-    height: 400px;
-    padding: 15px;
-    border: 1.5px solid #008000; 
-    border-radius: 50%;
-    margin: 80px auto;
-    bottom:20px;
-} */
-
 .circle-image{
     background-image: url('../images/2.jpeg');
     height:100%;
     border-radius:50%;
     
 }
-/*About us section complete*/
+/*service section complete*/
 
-/*Testimonial section bigin*/
+/*Testimonial section*/
 
 .testimonials{
     padding: 3% 0;
@@ -377,8 +357,6 @@ hr{
 }
 
 .col{
-    /*flex:33%;
-    max-width: 30%;*/
     flex: 1;
     box-sizing: border-box;
     padding: 15px;
@@ -390,12 +368,9 @@ hr{
     height:500px;
 }
 
-.image-testi1{
+.image-testi1 img {
     width: 200px;
     height: 200px;
-}
-
-.image-testi1 img {
     border-radius: 50%;
 }
 
@@ -463,13 +438,6 @@ footer{
     font-size: 50px;   
 }
 
-/*.social-media li{
-    margin: 0 10px;
-}
-.social-media a{
-    text-decoration: none;
-    color: white;
-}*/
 .icon{
     font-size: 50px;
     margin: 0%;
@@ -521,13 +489,7 @@ footer{
         border-radius: 50%;
         background-size: cover;
     }
-    /*
-    #center-service{
-        clear: both;
-        width: 100%;
-        float: left;
-        padding: 0;
-    } */
+    
     hr{
         display: none;
 
@@ -552,7 +514,7 @@ footer{
 .contact{
     position: relative;
     min-height: 130vh;
-    padding:50px 100px;
+    padding:50px 50px;
     display: flex;
     justify-content: center;
     /*flex-direction: column;*/
@@ -562,7 +524,7 @@ footer{
 }
 
 .contact .form-content{
-    max-width: 800px;
+    /*max-width: 80%;*/
     text-align: center;
 }
 
@@ -584,7 +546,7 @@ footer{
 .formmain{
     margin-top:200px;
     color:#fff;
-    max-width:500px;
+    max-width:35%;
     position:absolute;
     left:32%;
     padding:30px;
