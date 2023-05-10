@@ -53,7 +53,7 @@ The Pet Service website offers the following key features:
 ### Services Section:
 
 <div align="center">
-  <img width="1450" alt="services" src="https://github.com/Dayasuvagiya/Prarambh-dev/assets/130157117/cea10503-c9b8-4c1f-8000-1cf6c4f2ce01">
+  <img width="1397" alt="service section" src="https://github.com/Dayasuvagiya/Prarambh-dev/assets/130157117/12a615e3-b410-42db-a9d5-d342a39aaa42">
   </div>
   
   - Comprehensive range of pet care services tailored to suit various needs.
