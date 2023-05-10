@@ -159,7 +159,7 @@ For me black and white font color creates a classic and timeless aesthetic. This
 Using black and white for the font allows other design elements, such as images or green accents, to stand out and grab attention. It keeps the focus on the content and ensures that important information is easily readable, without distractions.
 
 ## Fonts
--The primary font, [Poppins], [Loto] was chosen because it is standard, plain and informative but not too rigid. It looks friendly and conversational but holds a seriousness. It is also sans-serif, making it very easily readable throughout different color schemes and complementary to the font used for Headings.
+- The primary font, [Poppins], [Loto] was chosen because it is standard, plain and informative but not too rigid. It looks friendly and conversational but holds a seriousness. It is also sans-serif, making it very easily readable throughout different color schemes and complementary to the font used for Headings.
 - The secondary font, [sans-serif] was chosen because it is thin, elegant and refined yet it has flair.
 
 ## Icons
