@@ -104,7 +104,7 @@ The Pet Service website incorporates a color scheme that evokes a sense of tranq
 ### Icons
 
 <div align="center">
-  
+  <img width="347" alt="footer" src="https://github.com/Dayasuvagiya/Prarambh-dev/assets/130157117/4238ee84-ea40-4f70-96e2-fddbc697e72d">
   </div>
   
 - Icons are taken from the [Fontawesome](https://fontawesome.com/) Icon library and are utilised as classes in the `<i>` tag.
