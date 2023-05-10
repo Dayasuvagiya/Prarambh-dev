@@ -18,14 +18,13 @@ Certainly! Here are some visitor goals for the website:
 ## Features
 
 The Pet Service website offers the following key features:
-<div align="center">
-  <img width="1456" alt="Screenshot 2023-05-10 at 13 14 37" src="https://github.com/Dayasuvagiya/Prarambh-dev/assets/130157117/8a96cb74-b2f2-441d-beec-0a8bebafe051">
-  </div>
   
 ### Navigation Bar:
+
 <div align="center">
   <img width="1447" alt="menubar" src="https://github.com/Dayasuvagiya/Prarambh-dev/assets/130157117/de5e9ecb-00f8-4cad-aac5-546e695665f5">
-</div>  
+</div>
+
   - Responsive and intuitive navigation bar for easy exploration.
   - Clear and organized menu structure for quick access to different sections.
   - The Navbar is simple, providing only four options with only one very evident Contact page, to maintain the minimalist style.
@@ -33,6 +32,11 @@ The Pet Service website offers the following key features:
   - On smaller devices, the menu becomes collapsible.
 
 ### Landing Page Image:
+
+<div align="center">
+  <img width="1456" alt="Screenshot 2023-05-10 at 13 14 37" src="https://github.com/Dayasuvagiya/Prarambh-dev/assets/130157117/8a96cb74-b2f2-441d-beec-0a8bebafe051">
+  </div>
+  
   - Captivating image that reflects the essence of pet care services.
   - Inviting and engaging visual experience for visitors.
 
