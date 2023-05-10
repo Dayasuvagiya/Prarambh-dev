@@ -41,24 +41,50 @@ The Pet Service website offers the following key features:
   - Inviting and engaging visual experience for visitors.
 
 ### About Section:
+
+<div align="center">
+  <img width="1446" alt="about us" src="https://github.com/Dayasuvagiya/Prarambh-dev/assets/130157117/9016f082-d445-40a3-9447-b26512e0baf1">
+  </div>
+  
+ 
   - Informative "About" section highlighting passion for pets, experience, and commitment to exceptional care.
   - Engaging content that connects with visitors and showcases expertise.
 
 ### Services Section:
+
+<div align="center">
+  <img width="1450" alt="services" src="https://github.com/Dayasuvagiya/Prarambh-dev/assets/130157117/cea10503-c9b8-4c1f-8000-1cf6c4f2ce01">
+  </div>
+  
   - Comprehensive range of pet care services tailored to suit various needs.
   - Detailed descriptions of each service, providing visitors with a clear understanding of what I offer.
 
 ### Testimonial Section:
+
+<div align="center">
+  <img width="1454" alt="testimonial section" src="https://github.com/Dayasuvagiya/Prarambh-dev/assets/130157117/e3fba8d9-5242-49bc-9376-5b7a379f7e9d">
+  </div>
+  
   - Heartfelt testimonials from satisfied clients, demonstrating track record of exceptional care and professionalism.
   - Build trust and confidence in the services through authentic feedback.
 
 ### Footer:
+
+<div align="center">
+  <img width="1450" alt="footer" src="https://github.com/Dayasuvagiya/Prarambh-dev/assets/130157117/f3eb84a5-9b5e-4275-ac87-56d81b506760">
+  </div>
+  
   - Located at the bottom of every page, mainly highlighting contact and social aspects.
   - A message encouraging contact is used as the first column.
   - The third column represents Important social media links.
   - Footer design that complements the overall aesthetics of the website.
 
 ### Get in Touch Section:
+
+<div align="center">
+  <img width="1454" alt="Form section" src="https://github.com/Dayasuvagiya/Prarambh-dev/assets/130157117/a321e855-3a69-4d93-a433-b0fa6dcba847">
+  </div>
+  
   - User-friendly contact form for inquiries, messages, or general questions.
   - Prompt response and personalized assistance to address visitor inquiries.
 
@@ -76,6 +102,11 @@ The Pet Service website incorporates a color scheme that evokes a sense of tranq
 - The secondary font, [sans-serif] was chosen because it is thin, elegant and refined yet it has flair.
 
 ### Icons
+
+<div align="center">
+  
+  </div>
+  
 - Icons are taken from the [Fontawesome](https://fontawesome.com/) Icon library and are utilised as classes in the `<i>` tag.
 - As they are utilised as classes, they can easily be styled using other classes or IDs in the same tag. I often used Bootstrap classes to style them uniformly.
 - Icons are utilised in the footer for social account icons and the on the service section.
